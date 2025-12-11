@@ -9,5 +9,5 @@ message Time {
 message Reading {
     required float  temperature  = 1;
     required uint32 published_id = 2;
-    required uint64 time = 3;
+    required Time time = 3;
 }
